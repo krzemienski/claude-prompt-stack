@@ -300,6 +300,23 @@ This is **Part 5** of the [Agentic Development](https://github.com/krzemienski) 
 
 ---
 
+## Troubleshooting
+
+### Template variables not replaced
+Variables use `{variable}` syntax. Ensure your YAML prompt files define all referenced variables in the `variables` section, or pass them via CLI flags.
+
+### `prompt-stack` command not found
+Run `pip install -e .` in the repo root. The entry point is defined in `pyproject.toml` under `[project.scripts]`.
+
+### YAML parsing errors
+Ensure prompt files use valid YAML syntax. Multi-line prompts should use YAML block scalars (`|` or `>`). Avoid unquoted special characters.
+
+### Setup script fails
+Run `chmod +x setup.sh` first, then `./setup.sh`. The script creates the default prompt library directory and copies template files.
+
+### Chained prompts lose context
+When piping output between stages, each stage runs independently. Use the `context` field in your stack configuration to pass previous stage outputs as variables.
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
