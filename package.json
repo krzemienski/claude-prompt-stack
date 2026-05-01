@@ -1,0 +1,24 @@
+{
+  "name": "claude-prompt-stack",
+  "version": "1.0.0",
+  "description": "SessionStart preloader, cache-health parser, and CLAUDE.md template optimized for prefix stability.",
+  "license": "MIT",
+  "author": "Nick Krzemienski",
+  "type": "module",
+  "main": "src/cli.ts",
+  "bin": {
+    "stack": "./src/cli.ts"
+  },
+  "scripts": {
+    "test": "bun test",
+    "analyze": "bun run src/cli.ts analyze",
+    "init": "bun run src/cli.ts init"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  }
+}

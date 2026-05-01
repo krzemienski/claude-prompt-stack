@@ -1,0 +1,12 @@
+{"type":"user","message":{"role":"user","content":"start"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":18,"cache_creation_input_tokens":14000,"cache_read_input_tokens":0,"output_tokens":250}}}
+{"type":"user","message":{"role":"user","content":"keep going"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":40,"cache_creation_input_tokens":0,"cache_read_input_tokens":14020,"output_tokens":200}}}
+{"type":"user","message":{"role":"user","content":"keep going"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":50,"cache_creation_input_tokens":0,"cache_read_input_tokens":14020,"output_tokens":210}}}
+{"type":"user","message":{"role":"user","content":"now load a skill mid-session"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":62,"cache_creation_input_tokens":15500,"cache_read_input_tokens":0,"output_tokens":300}}}
+{"type":"user","message":{"role":"user","content":"continue"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":54,"cache_creation_input_tokens":0,"cache_read_input_tokens":15500,"output_tokens":190}}}
+{"type":"user","message":{"role":"user","content":"continue"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":48,"cache_creation_input_tokens":0,"cache_read_input_tokens":15500,"output_tokens":180}}}

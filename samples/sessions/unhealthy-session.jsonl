@@ -1,0 +1,10 @@
+{"type":"user","message":{"role":"user","content":"start"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":15,"cache_creation_input_tokens":12000,"cache_read_input_tokens":0,"output_tokens":120}}}
+{"type":"user","message":{"role":"user","content":"trigger skill A"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":30,"cache_creation_input_tokens":13500,"cache_read_input_tokens":0,"output_tokens":210}}}
+{"type":"user","message":{"role":"user","content":"trigger skill B"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":40,"cache_creation_input_tokens":15200,"cache_read_input_tokens":0,"output_tokens":180}}}
+{"type":"user","message":{"role":"user","content":"continue"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":55,"cache_creation_input_tokens":15200,"cache_read_input_tokens":0,"output_tokens":160}}}
+{"type":"user","message":{"role":"user","content":"continue"}}
+{"type":"assistant","message":{"model":"claude-sonnet-4-5","usage":{"input_tokens":48,"cache_creation_input_tokens":15400,"cache_read_input_tokens":0,"output_tokens":175}}}
